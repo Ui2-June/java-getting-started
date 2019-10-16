@@ -82,6 +82,7 @@
       <artifactId>spring-boot-devtools</artifactId>
       <scope>runtime</scope>
     </dependency>
+    <!-- For Swagger Hub API Start -->
     <!-- SpringFox dependencies -->
     <dependency>
       <groupId>io.springfox</groupId>
@@ -98,6 +99,17 @@
       <artifactId>jackson-datatype-threetenbp</artifactId>
       <version>2.6.4</version>
     </dependency>
+    <!-- Bean Validation API support -->
+    <dependency>
+      <groupId>javax.validation</groupId>
+      <artifactId>validation-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <!-- For Swagger Hub API Start -->
   </dependencies>
 
   <build>
